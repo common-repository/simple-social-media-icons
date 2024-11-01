@@ -1,0 +1,205 @@
+/**
+ * Simple Social Media Icons plugin CSS
+ *
+ * @since	1.0.0
+ *
+ * @package Simple Social Media Icons
+ *
+ * Official Social Media Colors
+ * Facebook: 	#3b5998;
+ * Twitter: 	#00aced;
+ * Pinterest:	#cb2027;
+ * Instagram: 	#517fa4;
+ * Google Plus: #dd4b39;
+ * Youtube: 	#bb0000;
+ * LinkedIn: 	#007bb6;
+ */
+
+/* Generic Styles */
+a.ssmi-icon-link {
+	text-decoration: none;
+	display: inline-block;
+}
+
+a.ssmi-icon-link:focus {
+	box-shadow: none;
+}
+
+a.ssmi-icon-link i.fa {
+	transition: opacity 0.2s;
+}
+
+a.ssmi-icon-link:hover i.fa {
+	opacity: 0.8;
+}
+
+/* Shared Styles */
+.icon-style-2 i.fa,
+.icon-style-3 i.fa,
+.icon-style-4 i.fa {
+	width: 32px;
+	height: 32px;
+	line-height: 33px;
+	margin-bottom: 5px;
+}
+
+/* Specific Icon Styles */
+.icon-style-1 i.fa {
+	font-size: 25px;
+	margin-right: 3px;
+	margin-bottom: 6px;
+}
+
+.icon-style-2 i.fa {
+	margin-right: 5px;
+	border-radius: 2px;
+	font-size: 24px;
+}
+
+.icon-style-3 i.fa {
+	margin-right: 5px;
+	font-size: 24px;
+}
+
+.icon-style-4 i.fa {
+	border-radius: 100%;
+	margin-right: 4px;
+	font-size: 21px;
+}
+
+.icon-style-1 i.fa-facebook {
+	color: #3b5998;
+}
+
+.icon-style-1 i.fa-twitter {
+	color: #00aced;
+}
+
+.icon-style-1 i.fa-pinterest {
+	color: #cb2027;
+}
+
+.icon-style-1 i.fa-instagram {
+	color: #517fa4;
+}
+
+.icon-style-1 i.fa-google-plus {
+	color: #dd4b39;
+}
+
+.icon-style-1 i.fa-youtube {
+	color: #bb0000;
+}
+
+.icon-style-1 i.fa-linkedin {
+	color: #007bb6;
+}
+
+.icon-style-1 i.fa-flickr {
+	color: #ff0084;
+}
+
+.icon-style-1 i.fa-github {
+	color: #222;
+}
+
+.icon-style-1 i.fa-codepen {
+	color: #113472;
+}
+
+.icon-style-1 i.fa-wordpress {
+	color: #464646;
+}
+
+.icon-style-1 i.fa-medium {
+	color: #000;
+}
+
+.icon-style-2 i.fa-facebook,
+.icon-style-3 i.fa-facebook,
+.icon-style-4 i.fa-facebook {
+	color: white;
+	background-color: #3b5998;
+}
+
+.icon-style-2 i.fa-twitter,
+.icon-style-3 i.fa-twitter,
+.icon-style-4 i.fa-twitter {
+	color: white;
+	background-color: #00aced;
+}
+
+.icon-style-2 i.fa-pinterest,
+.icon-style-3 i.fa-pinterest,
+.icon-style-4 i.fa-pinterest {
+	color: white;
+	background-color: #cb2027;
+}
+
+.icon-style-2 i.fa-instagram,
+.icon-style-3 i.fa-instagram,
+.icon-style-4 i.fa-instagram {
+	color: white;
+	background-color: #517fa4;
+}
+
+.icon-style-2 i.fa-google-plus,
+.icon-style-3 i.fa-google-plus,
+.icon-style-4 i.fa-google-plus {
+	color: white;
+	background-color: #dd4b39;
+}
+
+.icon-style-2 i.fa-youtube,
+.icon-style-3 i.fa-youtube,
+.icon-style-4 i.fa-youtube {
+	color: white;
+	background-color: #bb0000;
+}
+
+.icon-style-2 i.fa-linkedin,
+.icon-style-3 i.fa-linkedin,
+.icon-style-4 i.fa-linkedin {
+	color: white;
+	background-color: #007bb6;
+}
+
+.icon-style-2 i.fa-flickr,
+.icon-style-3 i.fa-flickr,
+.icon-style-4 i.fa-flickr {
+	color: white;
+	background-color: #ff0084;
+}
+
+.icon-style-2 i.fa-github,
+.icon-style-3 i.fa-github,
+.icon-style-4 i.fa-github {
+	color: white;
+	background-color: #222;
+}
+
+.icon-style-2 i.fa-codepen,
+.icon-style-3 i.fa-codepen,
+.icon-style-4 i.fa-codepen {
+	color: white;
+	background-color: #113472;
+}
+
+.icon-style-2 i.fa-wordpress,
+.icon-style-3 i.fa-wordpress,
+.icon-style-4 i.fa-wordpress {
+	color: white;
+	background-color: #464646;
+}
+
+.icon-style-2 i.fa-medium,
+.icon-style-3 i.fa-medium,
+.icon-style-4 i.fa-medium {
+	color: white;
+	background-color: #000;
+}
+
+/* Admin Styles */
+.form-table.ssmi-style-demo-table p {
+	margin-bottom: 6px;
+}
